@@ -17,9 +17,12 @@ Start session
     ...       udid=emulator-5554
     ...       autoGrantPermissions=true
     ...       app=${EXECDIR}/apps/markx.apk
+    
+    Start Screen Recording
 
     Wait Until Page Contains    Endereço IP da Api    10
 
 Finish session
     Capture Page Screenshot
+    Stop Screen Recording
     Close Application
