@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation            Elementos e ações da tela minhas tarefas
+Documentation            Elementos e ações da tela minhas tarefas para iOS
 
 Library       AppiumLibrary
 

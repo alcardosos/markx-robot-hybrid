@@ -43,4 +43,3 @@ Task should be done
     [Arguments]        ${task_name}
 
     Wait Until Element Is Visible       xpath=//*[@text="${task_name}"]/..//android.widget.ImageView
-    
