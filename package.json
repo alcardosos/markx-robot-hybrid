@@ -16,6 +16,7 @@
     "appium-doctor": "^1.16.2"
   },
   "devDependencies": {
-    "appium-uiautomator2-driver": "^2.29.5"
+    "appium-uiautomator2-driver": "^2.29.5",
+    "appium-xcuitest-driver": "^9.7.0"
   }
 }
