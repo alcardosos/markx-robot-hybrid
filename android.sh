@@ -1,1 +1,1 @@
-robot -d ./logs -v PLATFORM:android tests/
+robot -d ./logs/android -v PLATFORM:android tests/

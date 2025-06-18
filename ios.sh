@@ -1,1 +1,1 @@
-robot -d ./logs -v PLATFORM:ios tests/
+robot -d ./logs/ios -v PLATFORM:ios tests/
