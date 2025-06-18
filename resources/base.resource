@@ -6,7 +6,7 @@ Library     libs/mongo.py
 
 Resource       env.resource
 Resource       screens/${PLATFORM}/login.resource
-Resource       screens/android/tasks.resource
+Resource       screens/${PLATFORM}/tasks.resource
 
 *** Keywords ***
 Start session

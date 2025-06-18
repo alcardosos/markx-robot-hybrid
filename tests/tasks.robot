@@ -1,13 +1,14 @@
 *** Settings ***
 Documentation        Suite de testes do cadastro de tarefas
 
-Resource        ${EXECDIR}/resources/base.resource
+Resource         ../resources/base.resource
 
 Test Setup       Start session
 Test Teardown    Finish session
 
 *** Test Cases ***
 Deve poder cadastrar uma nova tarefa
+    [Tags]    CT01
 
     ${task}        Set Variable        Estudar Python
     Remove task from database    ${task}
@@ -17,7 +18,7 @@ Deve poder cadastrar uma nova tarefa
     Should have task     ${task}
 
 Deve poder remover uma tarefa indesejada
-    [Tags]    remove
+    [Tags]    CT02
     
     ${task}      Set Variable        Comprar refrigerante
     Remove task from database        ${task}
@@ -30,7 +31,7 @@ Deve poder remover uma tarefa indesejada
     Wait Until Page Does Not Contain     ${task}
 
 Deve poder concluir uma tarefa
-    [Tags]    done
+    [Tags]    CT03
     
     ${task}      Set Variable        Estudar XPath
     Remove task from database        ${task}

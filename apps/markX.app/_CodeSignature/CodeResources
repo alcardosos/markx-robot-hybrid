@@ -93,9 +93,13 @@
 		<data>
 		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
 		</data>
-		<key>assets/node_modules/react-native-bouncy-checkbox/build/dist/check.png</key>
+		<key>assets/src/assets/check_done.png</key>
 		<data>
-		bbHaROOkx+LqBC6Q/wwHObPY2V8=
+		yUxD7R1rGsj7TH4Cm98HDrxuwkw=
+		</data>
+		<key>assets/src/assets/check_todo.png</key>
+		<data>
+		N56dXwaRnT5rKyS2dcyXdWRZYqQ=
 		</data>
 		<key>assets/src/assets/clipboard.png</key>
 		<data>
@@ -119,7 +123,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		lPWW4njzae7BvIDBAvd0D/RN+0Q=
+		ZvD2Ts/TO/n7oetUq0TgrM+Y5T8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -259,11 +263,18 @@
 			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
 			</data>
 		</dict>
-		<key>assets/node_modules/react-native-bouncy-checkbox/build/dist/check.png</key>
+		<key>assets/src/assets/check_done.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5oL0RDXgNmMm21RNm8oNX55FtYMfIVV68AeM/+N1iY8=
+			viJhGblFXipZbe7HzR92uCIhSfSv1os5exdi3PTry0U=
+			</data>
+		</dict>
+		<key>assets/src/assets/check_todo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CSObULWgOv1lUk0kwlV0L6p5F8tK3E/a9UUPdBZNxu4=
 			</data>
 		</dict>
 		<key>assets/src/assets/clipboard.png</key>
@@ -305,7 +316,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nONpm2IJRDIMD9iVlWnV8cIqb5ifQsQV7MH+d332N9Q=
+			N1pZn7TWrEUNlvnno+p9oQWwUb2wUo6NWdRW4Od9Fqk=
 			</data>
 		</dict>
 	</dict>

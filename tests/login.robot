@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation           Testes de login
 
-Resource        ../resources/base.resource
+Resource          ../resources/base.resource
 
 Test Setup        Start session
 Test Teardown     Finish session
